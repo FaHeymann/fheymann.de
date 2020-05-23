@@ -1,0 +1,64 @@
+baseURL = "https://fheymann.de/"
+languageCode = "en-us"
+title = "I'm Fabian Heymann"
+theme = "anatole"
+summarylength = 10
+enableEmoji = true
+
+# Enable Disqus
+#disqusShortname = ""
+
+# Google Analytics
+#googleAnalytics = "UA-123-45"
+
+[params]
+title = "I'm Fabian Heymann"
+author = "Fabian Heymann"
+description = "¯\\_(ツ)_/¯"
+profilePicture = "images/profile.jpg"
+keywords = ""
+favicon = "favicons/"
+customCss = []
+mainSections = ["posts"]
+
+## Math settings
+[params.math]
+enable = false  # options: true, false. Enable math support globally, default: false. You can always enable math on per page.
+use = "katex"  # options: "katex", "mathjax". default is "katex".
+
+## Social links
+[[params.socialIcons]]
+icon = "fa-github"
+title = "GitHub"
+url = "https://github.com/faheymann"
+
+[[params.socialIcons]]
+icon = "fa-envelope"
+title = "e-mail"
+url = "mailto:fabianheymann1010@gmail.com"
+
+[[params.socialIcons]]
+icon = "fa-xing"
+title = "Xing"
+url = "https://www.xing.com/profile/Fabian_Heymann4"
+
+[[params.socialIcons]]
+icon = "fa-linkedin"
+title = "Linkedin"
+url = "https://www.linkedin.com/in/fabian-heymann-953028121/"
+
+## Menu items
+
+[menu]
+
+  [[menu.main]]
+  name = "Posts"
+  weight = 100
+  identifier = "posts"
+  url = "/"
+
+  [[menu.main]]
+  name = "About"
+  weight = 300
+  identifier = "about"
+  url = "/about/"
