@@ -8,7 +8,7 @@ author: "Fabian Heymann"
 
 Hi, you can call me Fabian.
 
-I'm a 29 year old software developer from Braunschweig, Germany currently employed at [Finanzcheck.de](https://finanzcheck.de).
-I enjoy working with open source software, Kubernetes and the Cloud. My go-to language is javascript.
+I'm a 30 year old software developer from Braunschweig, Germany currently employed at [Finanzcheck.de](https://finanzcheck.de).
+I enjoy working with open source software, Kubernetes and AWS. My go-to language is usually Javascript.
 
-This site was build with [Hugo](https://github.com/gohugoio/hugo). The source can be found on [GitHub](https://github.com/FaHeymann/fheymann.de).
+I will probably not post much on here. You can contact me on LinkedIn or Xing if you want to.
