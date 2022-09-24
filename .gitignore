@@ -2,3 +2,4 @@ public
 infrastructure/secret.tfvars
 .terraform*
 **/*.zip
+.hugo*

@@ -1,5 +1,5 @@
 build:
-	rm -r public/*
+	rm -r public/* || true
 	hugo -D
 
 deploy: build
