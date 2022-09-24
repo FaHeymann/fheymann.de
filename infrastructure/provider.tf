@@ -1,9 +1,17 @@
 terraform {
-  required_version = ">=0.12.21"
+  required_version = ">=1.3.0"
   backend "s3" {
     bucket = "fh-terraform-states"
     key    = "website"
     region = "eu-central-1"
+  }
+  required_providers {
+    archive = {
+      source = "hashicorp/archive"
+    }
+    aws = {
+      source = "hashicorp/aws"
+    }
   }
 }
 

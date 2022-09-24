@@ -1,6 +1,5 @@
 resource "aws_s3_bucket" "website" {
   bucket = "fh-website-content"
-  acl    = "private"
 }
 
 data "aws_iam_policy_document" "s3_policy" {
@@ -131,7 +130,7 @@ resource "aws_lambda_function" "lambda" {
   function_name    = "website-edge"
   role             = aws_iam_role.lambda.arn
   handler          = "main.main"
-  runtime          = "nodejs12.x"
+  runtime          = "nodejs16.x"
   timeout          = 10
   source_code_hash = data.archive_file.lambda.output_base64sha256
 }

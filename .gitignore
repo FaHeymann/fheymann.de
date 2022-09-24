@@ -1,4 +1,4 @@
 public
 infrastructure/secret.tfvars
-.terraform
+.terraform*
 **/*.zip
