@@ -130,7 +130,7 @@ resource "aws_lambda_function" "lambda" {
   function_name    = "website-edge"
   role             = aws_iam_role.lambda.arn
   handler          = "main.main"
-  runtime          = "nodejs16.x"
+  runtime          = "nodejs20.x"
   timeout          = 10
   source_code_hash = data.archive_file.lambda.output_base64sha256
 }
